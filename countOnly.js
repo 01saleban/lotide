@@ -27,20 +27,20 @@ const countOnly = function(allItems, itemsToCount) {
 };
 
 const firstNames = [
-  "Mike",
-  "Ibby",
-  "Sarah",
-  "Keith",
-  "Sam",
-  "Britteny",
-  "Jennifier",
-  "Julia",
+  "Karl",
+  "Salima",
+  "Agouhanna",
+  "Fang",
+  "Kavith",
+  "Jason",
+  "Salima",
+  "Fang",
   "Joe"
 ];
 
-const result1 = countOnly(firstNames, { "Julia": true, "Sam": true, "Ibby": true, "Britteny": false });
+const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false });
 
-assertEqual(result1["Julia"], 1);
-assertEqual(result1["Sam"], undefined);
-assertEqual(result1["Ibby"], 2);
-assertEqual(result1["Britteny"], undefined);
+assertEqual(result1["Jason"], 1);
+assertEqual(result1["Karima"], undefined);
+assertEqual(result1["Fang"], 2);
+assertEqual(result1["Agouhanna"], undefined);
