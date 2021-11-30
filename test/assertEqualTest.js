@@ -1,4 +1,6 @@
-const assertArraysEqual = require("../assertArraysEqual");
+const assertEqual = require('../assertEqual');
 
-assertArraysEqual([1, 3, 5], [1, 3, 5]);
-assertArraysEqual([1, 2, 5, 6, 7, 8], [1, 3, 5]);
+// TEST CODE
+
+assertEqual("Lighthouse Labs", "Bootcamp");
+assertEqual(1, 1);
